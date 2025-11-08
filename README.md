@@ -34,6 +34,8 @@ This crawler automates the process of finding forms that might be missing CSRF p
 I developed a PHP-based demonstration that simulates a bank transaction webpage intentionally lacking CSRF protection. The proof-of-concept illustrates how an attacker could exploit the missing token to perform unauthorized transactions. The demo is intended to be run locally using XAMPP; relevant screenshots are included below.
 
 ![CSRF Vulnerability Alert](cmd.png)
+
+
 ![CSRF Attack](bank.png)
 
 ### Detection heuristic 
