@@ -8,7 +8,7 @@ This project was created for **educational and research purposes** to demonstrat
 ## 🧠 Overview
 
 Cross-Site Request Forgery (CSRF) is a common web vulnerability that allows attackers to perform unauthorized actions on behalf of authenticated users.  
-This crawler automates the process of finding forms that might be missing CSRF protection fields (like `csrf_token`, `csrfmiddlewaretoken`, etc.).
+This crawler automates the process of finding forms that might be missing CSRF protection fields.
 
 ---
 
